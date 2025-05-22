@@ -1,0 +1,212 @@
+body {
+    background-color: bisque;
+    font-size: 20px;
+}
+header{
+    background-color: navy;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    line-height: 0.7em;
+    padding-top: 0.7em;
+    padding: 0.1em;
+    position: fixed;
+    font-family: 'kurale';
+    font-size: 1.5em;
+}
+
+.crown{
+    display: flex;
+    gap: 1em;
+        img{
+             /* border-radius: 50%; */
+            height: 5em;
+        }
+        h3{
+            padding-top: 1em;
+        }
+}
+nav{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    background-color: white;
+    gap: 50em;
+    position: fixed;
+    span
+     a{
+            text-decoration: none;
+            color: black;
+            padding-left: 1em;
+            font-family: 'kurale';
+            font-size: 1.25em;
+            color: maroon;
+    }
+}
+header{
+    background-color: navy;
+    color: white;
+}
+
+.babysitting {
+    background-image: url(images/math.png);
+    border: solid 1.5px;
+    border-radius: 20px;
+    padding-top: 11em;
+    width: 60%;
+    margin: auto;
+    color: aliceblue;
+}
+
+.total_earning {
+    border: dotted;
+    width: 33vw;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1em;
+
+}
+
+.remaining_money_earned {
+    border: dotted;
+    width: 33vw;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.earning_calculations {
+    display: flex;
+    gap: 2em;
+    padding: 1em;
+    color: black;
+}
+
+.social_media {
+    background-image: url(images/social-media.png);
+    display: flex;
+    gap: 1em;
+    width: 80%;
+    margin: auto;
+    border: solid 1.5px;
+    border-radius: 20px;
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    justify-content: center;
+}
+
+.youtube_videos {
+    background-color: white;
+    border-radius: 20px;
+    padding: 1em;
+    width: 35vw;
+}
+
+.play_store {
+    background-color: white;
+    border-radius: 20px;
+    padding: 1em;
+    width: 35vw;
+}
+
+.driverless_cars {
+    background-color: white;
+    width: 40vw;
+    padding: 1em;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.new_tech {
+    border: solid 1.5px;
+    background-image: url(images/tech.png);
+    border-radius: 20px;
+    color: white;
+    width: 80vw;
+    margin-bottom: 1em;
+    margin: auto;
+    padding: 1em;
+}
+
+.new_tech_solution{
+    background-color: white;
+    border-radius: 20px;
+    padding: 1em;
+    color: black;
+}
+
+.feature_not_working{
+    background-color: white;
+    border-radius: 20px;
+    width: 50vw;
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+
+}
+
+footer{
+    background-color: navy;
+    height: 14.5cm;
+    input{
+        padding: 2.2em;
+        font-size: 1.5em;
+        width: 15cm;
+        align-items: center;
+        margin-left: 16em;
+    }
+    button{
+        padding: 1.8em;
+        background-color: rgb(1, 1, 36);
+        color: white;
+        width: 3.5cm;
+        border-radius: 2em;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: white;
+        color: black;
+        border: maroon solid 1px;
+    }
+    p{
+        font-family: 'nunito';
+    }
+ }
+ #feedback{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+ }
+ #social{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2em;
+ }
+ #copyright{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.5em;
+ }
+ .socials{
+    a{
+        text-decoration: none;
+    }
+    i{
+        color: white;
+        padding-left: 6em;
+    }
+ }
+ .hr-line{
+    position: relative;
+    max-width: 90%;
+    margin: 30px auto;
+    height: 1px;
+    background-color: black;
+ }
